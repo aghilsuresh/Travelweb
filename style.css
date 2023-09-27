@@ -1,0 +1,151 @@
+*{
+    font-family: Open Sans,sans-serif;
+    
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+
+
+
+.nav-item a{
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+    margin-top: -1rem;
+
+}
+.nav-item .nav-link:hover{
+    
+   transform: scale(1.2);
+   color: gold;
+
+}
+#heading h2 {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: gold;
+    letter-spacing: 3px;
+}
+
+#heading h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size:30px;
+    letter-spacing: 5px;
+    margin-top: 15px;
+}
+#headimg {
+    animation: slideFromLeft 8s /* ease-out forwards */;
+    
+}
+
+@keyframes slideFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    /* 100% {
+      transform: translateX(0);
+      opacity: 1;
+    } */
+  }
+
+#place{
+    animation: righttoleft 10s;
+}
+
+@keyframes righttoleft {
+    0% {
+      transform: translate(100%);
+      opacity: 0;
+    }
+    
+  }
+#imgs{
+  height: 13rem;
+}
+
+#place h5{
+  font-weight: bolder;
+}
+#team{
+  animation: slidefromleft 12s;
+}
+
+@keyframes slidefromleft{
+  0%{
+    transform: translate(-100%);
+  }
+}
+.div1 {
+  height: 30rem;
+  width: 100%;
+   background-image: url(https://cdn02.travelalberta.com/contentAsset/image/0d83353c-bef7-4b41-a4af-0db23552827f/fileAsset/filter/Resize,Crop/resize_w/1800/crop_w/1800/crop_h/650/fp/0.1,0.24/jpeg_q/85); 
+  opacity: 1;
+  
+  
+}
+.div1 h1{
+
+  font-weight: bolder;
+  font-size: 48px;
+  color:rgba(0, 0, 0, 0.504);
+  text-align: center;
+  margin-top: 17px;
+
+}
+.div2 img{
+
+  
+  height: 46rem;
+  width: 100%;
+ 
+  
+  
+}
+
+#detail{
+
+ margin-top: 27.6rem;
+ 
+}
+
+#foot{
+  background-size: cover;
+  background-color:lightskyblue;
+  height: 15rem;
+  margin-top: 4rem;
+  
+  
+}
+.icon i{
+  font-size: 30px;
+  color: black;
+  margin-right: 15px;
+}
+
+.icon:hover i{
+  color: white; 
+  animation: shake 1s; 
+  transform: scale(1.5);
+}
+@keyframes shake{
+  10%{
+      transform:rotate(15deg);
+  }
+  20%{
+      transform:rotate(-15deg);
+  }
+  30%{
+      transform: rotate(15deg);
+  }
+  40%{
+      transform: rotate(-15deg);
+  }
+
+
+}
