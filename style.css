@@ -149,3 +149,14 @@
 
 
 }
+
+.carousel-image{
+  
+    max-width: 100%; /* Set the maximum width of the image to the container width */
+    max-height: 550px; /* Set the maximum height of the image as per your preference */
+    width: auto;  /* Allow the image to scale proportionally */
+     height: auto;  /* Allow the image to scale proportionally */
+
+
+
+}
